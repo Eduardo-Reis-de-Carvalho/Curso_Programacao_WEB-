@@ -1,4 +1,4 @@
-algoritmo "Desvio fluxo de dados"
+algoritmo "Inventário"
 
 var
 
