@@ -5,7 +5,6 @@ var
     item: caractere  
 
 
-
 inicio
 
     escreval("Digite o 1º item: ")
