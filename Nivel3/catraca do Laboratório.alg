@@ -15,9 +15,9 @@ inicio
     leia(idade)
     escreval("")
     se (idade >= 18) entao
-    escreval("Acesso Liberado: Máquina habilitada")
+        escreval("Acesso Liberado: Máquina habilitada")
     senao
-    escreval("Acesso Negado: Risco de segurança. Procure o professor")
+        escreval("Acesso Negado: Risco de segurança. Procure o professor")
 
 fimse
 
