@@ -11,7 +11,7 @@ var
 
 inicio
 
-    escreval("Insira a sua data de nascimento")
+    escreval("Insira a idade")
     leia(idade)
     escreval("")
     se (idade >= 18) entao
