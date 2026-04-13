@@ -71,10 +71,4 @@ inicio
         fimse
 
 
-
-fimse
-
-
-
-
 fimalgoritmo
