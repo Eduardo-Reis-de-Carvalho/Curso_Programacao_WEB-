@@ -15,24 +15,14 @@ inicio
 
     escreval("============ DESAFIO DE LÓGICA ============")
     escreval("Pistas:")
-    escreval("1. Tiago tem 8 anos e gosta de suco de Maracujá.")
+    escreval("1. Thiago tem 8 anos e gosta de suco de Maracujá.")
     escreval("2. Karina gosta de suco de Laranja tem 2 anos a mais que a Talita.")
     escreval("3. Os sucos são: Maracujá, Laranja e Limão.")
     escreval("4. Talita tem 9 anos.")
+    escreval("Nomes com letras iniciais maiúsculas, com acento")
     escreval("-------------------------------------------")
 
-// Primeira criança
-crianca1 <- Thiago
-suco1 <- Maracuja
-idade1 <- 8 anos
-// Segunda criança
-crianca2 <- Karina
-suco2 <- Laranja
-idade2 <- 11 anos
-// Terceira criança
-crianca3 <- Talita
-suco3 <- Limao
-idade3 <- 9 anos
+
 
 escreval ("Informe o nome da primeira criança: ")
 leia (crianca1)
@@ -53,17 +43,21 @@ leia (crianca3)
 escreval ("Informe o nome do suco correspondente à terceira criança: ")
 leia (suco3)
 escreval ("Informe a idade correspndente à terceira criança: ")
+leia(idade3)
 escreval ("____________________________________________________")
 escreval ("")
-se (crianca1 = "Thiago") e (suco1 = "Maracujá") e (idade1 = "8anos") entao
+se (crianca1 = "Thiago") e (suco1 = "maracujá") e (idade1 = 8) entao
     escreval ("Parabéns, você acertou!")
 senao
-se (criança2 = "Karina") e (suco2 = "Laranja") e (idade2 = "11 anos") entao
+se (crianca2 = "Karina") e (suco2 = "laranja") e (idade2 = 11) entao
+    escreval ("Parabéns, você acertou!")
+senao
+se (crianca3 = "Talita") e (suco3 = "limão") e (idade2 = 9) entao
     escreval ("Parabéns, você acertou!")
 senao
     escreval ("Você não acertou, tente novamente!")
 fimse
 fimse
-
+fimse
 
 fimalgoritmo
