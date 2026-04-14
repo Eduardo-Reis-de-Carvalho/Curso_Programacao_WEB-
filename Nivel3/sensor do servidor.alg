@@ -17,7 +17,7 @@ inicio
     se (temperatura <= 20) entao
         escreval ("Status: Climatização Ideal")
     senao
-    se (temperatura >= 21) e (temperatura <25) entao
+    se (temperatura >= 21) e (temperatura <=25) entao
         escreval ("Status: Normal / Atenção")
     senao
         escreval ("PERIGO! Servidor superaquecendo!")
