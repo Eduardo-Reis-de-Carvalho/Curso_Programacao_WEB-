@@ -52,7 +52,7 @@ inicio
     escreval ("Informe o mês da viagem: ")
     leia (mes4)
     escreval ("____________________________________________________")
-        se(turista1 = "Espanhol" ) e (estado1 = "Rio Grande do Sul" ) e (mes1 = "Marco" ) entao 
+        se(turista1 = "Espanhol" ) e (estado1 = "Rio Grande do Sul" ) e (mes1 = "Março" ) entao 
             escreval ("Parabéns, você acertou! ")
         senao
         se(turista2 = "Português" ) e (estado2 = "Bahia" ) e (mes2 = "Setembro" ) entao
