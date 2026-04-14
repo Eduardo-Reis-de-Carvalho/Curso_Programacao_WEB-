@@ -54,19 +54,19 @@ inicio
         se(turista1 = "Espanhol" ) e (estado1 = "Rio Grande do Sul" ) e (mes1 = "Março" ) entao 
             escreval ("Parabéns, você acertou! ")
         senao
-        se(turista2 = "Português" ) e (estado2 = "Bahia" ) e (mes2 = "Setembro" ) entao
-            escreval ("Parabéns, você acertou! ")
-        senao
-        se(turista3 = "Italiano" ) e (estado3 = "Rio de Janeiro" ) e (mes3 = "Dezembro" ) entao
-            escreval ("Parabéns, você acertou! ")
-        senao
-        se(turista4 = "Alemão" ) e (estado4 = "Amazonas" ) e (mes4 = "Junho" ) entao
-            escreval ("Parabéns, você acertou! ")
-        senao
+            se(turista2 = "Português" ) e (estado2 = "Bahia" ) e (mes2 = "Setembro" ) entao
+                escreval ("Parabéns, você acertou! ")
+            senao
+                se(turista3 = "Italiano" ) e (estado3 = "Rio de Janeiro" ) e (mes3 = "Dezembro" ) entao
+                    escreval ("Parabéns, você acertou! ")
+                senao
+                    se(turista4 = "Alemão" ) e (estado4 = "Amazonas" ) e (mes4 = "Junho" ) entao
+                        escreval ("Parabéns, você acertou! ")
+                    senao
         escreval ("Você não acertou, tente novamente!")
-        fimse
-        fimse
-        fimse
+                    fimse
+                fimse
+            fimse
         fimse
 
 
