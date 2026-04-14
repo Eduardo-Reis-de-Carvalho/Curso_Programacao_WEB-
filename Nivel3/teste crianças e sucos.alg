@@ -7,9 +7,9 @@ algoritmo "Crianças, sucos e idades"
 
 var
 
-crianca1, crianca2, crianca3: caractere
-suco1, suco2, suco3: caractere
-idade1, idade2, idade3: inteiro
+    crianca1, crianca2, crianca3: caractere
+    suco1, suco2, suco3: caractere
+    idade1, idade2, idade3: inteiro
 
 inicio
 
