@@ -7,9 +7,9 @@ algoritmo "Viajando pelo Brasil"
 
 var
 
-turista1, turista2, turista3, turista4: caractere
-estado1, estado2, estado3, estado4: caractere
-mes1, mes2, mes3, mes4: caractere
+    turista1, turista2, turista3, turista4: caractere
+    estado1, estado2, estado3, estado4: caractere
+    mes1, mes2, mes3, mes4: caractere
 
 inicio
 
@@ -23,7 +23,6 @@ inicio
     escreval ("5. O italiano viajou no mês em que é comemorado o natal. ")
     escreval ("6. OBS.: Nacionalidades, estados e meses, escrever com iniciais maiúsculas. ")
     escreval ("-------------------------------------------")
-
     escreval ("Informe a nacionalidade do priemrio turista: ")
     leia (turista1)
     escreval ("Informe para qual estado viajou: ")
