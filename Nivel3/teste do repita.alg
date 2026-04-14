@@ -47,6 +47,7 @@ inicio
     se(senhaDigitada = "1234") entao
        escreval("Login efetuado com sucesso")
     senao
-
+        escreva("Acesso bloqueado! ")
+    fimse    
     
 fimalgoritmo
