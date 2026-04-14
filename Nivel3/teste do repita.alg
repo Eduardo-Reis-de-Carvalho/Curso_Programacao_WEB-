@@ -36,11 +36,17 @@ inicio
         tentativas <- tentativa + 1
 
         se (senhaDigitada <> "1234") entao
-            escreval("Senha incorreta. Tente novamente")
+            se(tentativas < 3) entao
+                escreval("Senha incorreta. Tente novamente")
+                escreval("Restam", 3 - tentativas, "tentativas")
+            fimse
         fimse
     // Só agora no final, ele faz o teste
     ate (senhaDigitada = "1234") ou (tentativas = 3)
 
-    escreval("Login efetuado com sucesso")   
+    se(senhaDigitada = "1234") entao
+       escreval("Login efetuado com sucesso")
+    senao
+
     
 fimalgoritmo
