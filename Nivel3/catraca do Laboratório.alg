@@ -19,6 +19,6 @@ inicio
     senao
         escreval("Acesso Negado: Risco de segurança. Procure o professor")
 
-fimse
+    fimse
 
 fimalgoritmo
