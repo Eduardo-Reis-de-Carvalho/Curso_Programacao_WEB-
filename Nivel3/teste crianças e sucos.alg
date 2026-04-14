@@ -49,15 +49,15 @@ escreval ("")
 se (crianca1 = "Thiago") e (suco1 = "maracujá") e (idade1 = 8) entao
     escreval ("Parabéns, você acertou!")
 senao
-se (crianca2 = "Karina") e (suco2 = "laranja") e (idade2 = 11) entao
-    escreval ("Parabéns, você acertou!")
-senao
-se (crianca3 = "Talita") e (suco3 = "limão") e (idade2 = 9) entao
-    escreval ("Parabéns, você acertou!")
-senao
-    escreval ("Você não acertou, tente novamente!")
-fimse
-fimse
+    se (crianca2 = "Karina") e (suco2 = "laranja") e (idade2 = 11) entao
+        escreval ("Parabéns, você acertou!")
+    senao
+        se (crianca3 = "Talita") e (suco3 = "limão") e (idade2 = 9) entao
+            escreval ("Parabéns, você acertou!")
+        senao
+            escreval ("Você não acertou, tente novamente!")
+        fimse
+    fimse
 fimse
 
 fimalgoritmo
