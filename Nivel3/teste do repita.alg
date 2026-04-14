@@ -25,7 +25,7 @@ inicio
         fimse
 
     // Só agora no final, ele faz o teste
-    ate (usuario = "admin")    
+    ate (usuario = "admin") ou (tentativas = 3)   
 
     repita
     // o contador entra neste ponto
