@@ -1,0 +1,89 @@
+<!-- Declara que o ficheiro é um documento <HTML -->
+    <!DOCTYPE html>
+
+    <!--Inicia o código HTML e defina o idioma -->
+    <html lang="pt-br">
+
+        <!-- A TAG <HEAD> guarda as configurações invisíveis da página( metadados, título da página, autor, etc)-->
+            <head>
+                <!--Título que aparecerá na aba-->
+                <title>Teste para programadores</title>
+                
+                <!--Defina codificação de caracteres do idioma do teclado-->
+                <meta charset="UTF-8">
+
+                <!--Faz com que a página seja adaptável aos dispositivos e telas mais usuais-->
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                
+                <!--Descrição do site e suas características resumidas-->
+                <meta name="description" content="Teste para Programadores">
+                <meta name="author" content="Eduardo Carvalho">
+                <meta name="keywords" content="aula, web">
+
+                <!--Fechamento obrigatório da TAG Head-->
+            </head>
+
+        
+            <!--A TAG <BODY> é o corpo da página. Tudo que será acrescentado será visível para o usuário -->   
+            <body>
+                <!--Cabeçalho da página-->
+                <header>
+                    <!--Como boas práticas no desenvolvimento de sites recomenda-se um H1 por aba-->
+                    <h1> TESTE PARA PROGRAMADORES</h1>
+
+                    <!--Parágrafo-->
+                    <p>Teste seus conhecimentos em programçãoe desenvolvimento de WEB e veja se está preparado</p>
+                </header>
+
+               <!--Conteúdo da página-->
+               <main>
+                    <!--Delimita de forma organizada partes específicas do site-->
+                    <!--Propriedades de parágrafos (textos)
+                    <strong> -- dá forte importância ao texto
+                    <em> -- dá ênfase no texto escolhido
+                    <br> -- quebra de linha
+                    <abbr> -- cria uma abreviação explicativa ao passar o mouse: title="Hipertext Markup Language" (Linguegem de marcação de Hipertexto)">
+                    <b> -- negrito
+                    <i> -- itálico
+                    <u> -- sublinhado-->
+                        
+                        
+                    <section>
+                        <h2><U>Sobre este teste</U></h2>
+                        <p>Este teste foi desenvolvido para treinar seus conhecimentos em <strong>programação</strong> como: linguagem em programação, lógica de programação, conceitos básicos entre outros. <br> <br>Você encontrará diversas perguntas como: múltipla escolha, teste, datas, imagens etc. <br><br>Você também poderá encontrar alguns acrônicos <abbr title="Hipertext Markup Language" (Linguegem de marcação de Hipertexto)"> HTML </abbr> e CSS que são comumente utilizados em questões relacionadas em <em>desenvolvimento Web</em>. <br><br>Boa sorte!</p>
+                    </section>
+
+                    <section>
+                        <!--Início do teste
+                            Questão 1-->
+                            <h2> Questão 1: Qual linguagem é usada para estruturar páginas na WEB</h2>
+                            <!--A TAG <FORM> é uma das mais importantes. É a base de qualquer sistema interativo na WEB. Ela é o "envelope" que agrupa os campos de entrada (inputs) e define para onde e como os dados preenchidos pelo usuário seão enviados no servidor-->
+                        <form>
+                            <!--Esta linha <input> representa o link com a lógica a ser implementada no backend-->
+                            <!--O nome descrito na tag name não é visível para o usuário, sendo então, necessário acrescentar uma linha <label>
+                            <label for="q1a">Python</label>-->  
+                            <input type="radio" value="Phyton" id="q1a" name="pergunta1">
+                            <label for="q1a">Python</label>  
+                            <input type="radio" value="JavaScript" id="q1b" name="pergunta1">
+                            <label for="q1b">JavaScript</label>
+                            <input type="radio" value="C++" id="q1c" name="pergunta1">
+                            <label for="q1c">C++</label>
+                            <input type="radio" value="HTML" id="q1d" name="pergunta1">
+                            <label for="q1d">HTML</label>
+                        </form>
+                    </section>
+               </main>
+
+               <!--Rodapé da página-->
+               <footer>
+
+               </footer>
+
+
+            </body>
+
+
+
+
+            <!--Fechamewnto OBRIGATORIO da página-->
+     </html>       
