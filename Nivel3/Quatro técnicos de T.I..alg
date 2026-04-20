@@ -35,6 +35,14 @@ inicio
     Escreval("em exatos 17 minutos?")
     Escreval("")
     Escreval("============================================================")
+
+    Escolha
+        opcao 1 <- Alice e Bruno 
+        se (opcao 1 = 2 min) entao
+            escreval ("O primeiro passo está correto ")
+        senao
+            escreval ("O primeiro passo está incorreto")
+        fimse
     
     
 
