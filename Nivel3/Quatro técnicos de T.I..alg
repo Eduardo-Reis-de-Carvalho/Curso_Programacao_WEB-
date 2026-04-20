@@ -18,6 +18,7 @@ inicio
 
     //Enunciado do teste de lógica da travessia dos 4 técnicos em TI
 
+    Escreval("=================== Início da Travessia ====================")
     Escreval("Quatro técnicos de TI estão no corredor escuro de um Data Center e precisam chegar à sala") 
     Escreval("principal dos servidores antes que o sistema caia, em no máximo 17 minutos. Eles têm apenas") 
     Escreval("uma lanterna. O corredor é estreito, então no máximo duas pessoas podem passar juntas por")
@@ -33,8 +34,8 @@ inicio
     Escreval("Pergunta: Como eles devem organizar as travessias para que todos cheguem à sala")
     Escreval("em exatos 17 minutos?")
     Escreval("")
-    Escreval("")
-    Escreval("=================== Início da Travessia ====================")
+    Escreval("============================================================")
+    
     
 
 
