@@ -37,9 +37,10 @@ inicio
     Escreval("============================================================")
     Escreval("")
 
-    
-Escreval("Informe sua primeira opção ")
-Escreval("Informe quem voltará com a lanterna ")
+
+    Escreval("Informe o número da sua primeira opção ")
+    leia(opcao1)
+    Escreval("Informe quem voltará com a lanterna ")
                 
     opcao 1 <- Alice e Bruno 
         se (opcao 1 = 2 min) entao
