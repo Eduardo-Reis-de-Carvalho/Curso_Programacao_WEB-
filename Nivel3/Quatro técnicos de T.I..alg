@@ -36,10 +36,12 @@ inicio
     Escreval("")
     Escreval("============================================================")
     Escreval("")
-    Escreval("Informe sua primeira opção ")
-    Escreval("Informe quem voltará com a lanterna ")
-    Escolha
-        opcao 1 <- Alice e Bruno 
+
+    
+Escreval("Informe sua primeira opção ")
+Escreval("Informe quem voltará com a lanterna ")
+                
+    opcao 1 <- Alice e Bruno 
         se (opcao 1 = 2 min) entao
             escreval ("O primeiro passo está correto ")
         senao
