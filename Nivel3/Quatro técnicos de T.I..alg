@@ -19,9 +19,9 @@ inicio
     //Enunciado do teste de lógica da travessia dos 4 técnicos em TI
 
     Escreval("Quatro técnicos de TI estão no corredor escuro de um Data Center e precisam chegar à sala") 
-    Escreva("principal dos servidores antes que o sistema caia, em no máximo 17 minutos. Eles têm apenas") 
+    Escreval("principal dos servidores antes que o sistema caia, em no máximo 17 minutos. Eles têm apenas") 
     Escreval("uma lanterna. O corredor é estreito, então no máximo duas pessoas podem passar juntas por")
-    Escreva("vez, sempre caminhando na velocidade do mais lento. Alguém sempre precisa voltar com a")
+    Escreval("vez, sempre caminhando na velocidade do mais lento. Alguém sempre precisa voltar com a")
     Escreval("lanterna para buscar os outros.")
     Escreval("")
     Escreval("O tempo que cada técnico leva para atravessar o corredor:")
