@@ -35,7 +35,9 @@ inicio
     Escreval("em exatos 17 minutos?")
     Escreval("")
     Escreval("============================================================")
-
+    Escreval("")
+    Escreval("Informe sua primeira opção ")
+    Escreval("Informe quem voltará com a lanterna ")
     Escolha
         opcao 1 <- Alice e Bruno 
         se (opcao 1 = 2 min) entao
