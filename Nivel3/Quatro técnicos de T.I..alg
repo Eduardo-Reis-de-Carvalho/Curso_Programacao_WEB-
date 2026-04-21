@@ -57,7 +57,7 @@ leia(opcao1)
 se(opcao1="Alice e Bruno") entao
     Escreval("O primeiro passo está correto!")
     Escreval("Passaram-se 2 minutos")
-    Escreval("Qual técnico da primeira dupla retorna com a lanterna?")
+    Escreval("Qual técnico retorna com a lanterna?")
     leia(tec_lanterna1)
     se(tec_lanterna1="Alice") entao
       Escreval("Está correto!")
