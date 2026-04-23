@@ -157,7 +157,7 @@
                         <figure>
                             <img src="assets/Java.png" alt="imagem do logotipo da linguagem de programação"
                             width="200" height="200">
-                            <figcaption> Figura 1 - Logotipo da linguagem de programação</figcaption>
+                            <figcaption> Figura 1 - Logotipo da linguagem de programação </figcaption>
                         </figure>
                         
                         <form>
@@ -173,22 +173,94 @@
                             <input type="radio" value="HTML" id="q8d" name="pergunta8">
                             <label for="q1d">HTML</label><br><br><hr>
                         </form>                        
-                    </section>    
+                    </section> 
 
+                                       
+                    
+                    <!--Tabela de Pontuação-->
+                    <!--Essa é a estrutura. Deve começar o <tbody> -- <table> e finalizar com </table> e </tbody>-->
+                    <section>
+                        <h2>Tabela de Pontuação</h2>
+                        <!--Monta a estrutura de uma tabela-->
+                        <tbody>
+                        <table border="1">
+                            <!--A tag <tr> mesmo significando Table Row, pode causar auguma dúvida em referência "tradução row (coluna)" mas será habilitada a edição da linha da coluna-->
+                            <thead>
+                                <!--A <tr> faz vc criar a tabela, mas a <th> faz a tabela ficar centralizada-->
+                            <tr>
+                                <th> Pontuação </th><th> Descrição</th>
+                            </tr>
+                            </thead>
+                            <tr>
+                                <th> 0 - 2 </th><th> Não foi bem. Tente novamente!</th> 
+                            </tr>
+                             <tr>
+                                <td> 3 - 4 </td><td> Precisa melhorar!</td> 
+                            </tr>
+                             <tr>
+                                <td> 5 - 6 </td><td> Regular, mas ainda não é o suficiente! </td> 
+                            </tr>
+                             <tr>
+                                <td> 7 - 8 </td><td> Muito bom! Você está aprendendo!</td> 
+                            </tr>
+                             <tr>
+                                <td> 9 - 10 </td><td> Parabéns programador!</td> 
+                            </tr>
+
+                                <!--Para centralizar o rodapé (*Tabela de notas) <th colspan=""> coloca-se o número de acordo com a quantidade de colunas-->
+                            <tfoot> 
+                                <tr>
+                                    <th colspan="2">* Tabela de notas</th>
+                                </tr>
+                            </tfoot>
+
+                        </table>
+                        </tbody>                   
+                    </section>
+
+
+                    </section> <!-- Lista de respostas-->
+                                <h2>Verifique as suas respostas</h2>
+                                <!--Como na tabela, para trabalharmos com listas, primeiramente precisamos informar a intenção através da tag <ul> 
+                                    ul -- habilita a lista
+                                    ol -- lista numerada
+                                    li -- lista de pontos -->
+                                <ul>
+                                <details>
+                                    <summary>Clique para visualizar as respostas</summary><br>
+                                    <li>HTML</li>
+                                    <li>Domínio</li>
+                                    <li>nome@1978@</li>
+                                    <li>1991</li>
+                                    <li>Python, JavaScript, C++</li>
+                                    <li>*html</li>
+                                    <li>type</li>
+                                    <li>Java</li>
+                                </ul>
+                    
+                    <section>
+                        <!--Formulário de feedback-->
+                        <form>
+                            <fieldset>
+                                <legend>Informações de contato:</legend><br>
+                                <label for="name">Informe o seu nome:</label>
+                                    <input type="text" id="name" name="name"><br><br>
+                                <label for="e-mail">Informe o seu e-mail:</label>
+                                    <input type="text" id="e-mail"><br><br>
+                                <textarea name="comentariocmt" id=cmt rows="4" cols="50" placeholder="Digite seus comentários aqui:"></textarea>
+                            </fieldset>
+                        </form>
+                    </section>
+                        
+                    </section>
                     
 
                     
                </main>
 
 
-
-
-
-
-
-
-               <!--Rodapé da página-->
-               <footer>
+                <p> Teste de Programadores. Todos os direitos reservados</p>
+                <p> Para acessar mais testes <a href="pages/page1.html" target="_top">Clique aqui</a></p>
 
                </footer>
 
@@ -199,4 +271,4 @@
 
 
             <!--Fechamewnto OBRIGATORIO da página-->
-     </html> 
+     </html>       
